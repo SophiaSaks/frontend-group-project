@@ -1,0 +1,18 @@
+.BookCard {
+    background: #D9CBD9;
+    position: sticky;
+    left: 0;
+    z-index: 100;
+    width: 20%;
+    height: 16rem;
+    border-radius: 12px;
+    margin: 2rem;
+}
+.Header {
+    color: #302E26;
+    padding: 1rem;
+    font-size: 24px;
+    font-family: "Baskerville Old Face";
+    font-weight: bolder;
+    letter-spacing: 8%;
+}

@@ -4,10 +4,8 @@ import { useState } from "react";
 import "./Navbar.css";
 
 const navLinks = [
-    { label: "Home", href: "/", icon: "⌂" },
-    { label: "Explore", href: "/explore", icon: "⌕" },
-    { label: "Messages", href: "/messages", icon: "✉" },
-    { label: "Profile", href: "/profile", icon: "○" },
+    { label: "Böcker", href: "/explore", icon: "📖" },
+    { label: "Diskussion", href: "/messages", icon: "🗨️" }
 ];
 
 export default function Navbar() {

@@ -1,15 +1,15 @@
 import './App.css';
 import './components/Navbar.js'
 import Navbar from "./components/Navbar";
+import BookCard from "./components/BookCard";
 
 function App() {
   return (
       <main className="App">
-
-        <div >
-          <h1>Hej hej hallå</h1>
-        </div>
           <Navbar />
+        <div >
+            <BookCard />
+        </div>
       </main>
   );
 }

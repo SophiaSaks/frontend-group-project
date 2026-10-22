@@ -1,17 +1,43 @@
 .navbar {
-    --accent: #FDA760;
-    --text: #242333;
-    --muted: #575377;
-    --border: #eae9f0;
-    --surface: #DFF6D0;
 
     display: flex;
     align-items: center;
     gap: 2rem;
     padding: 1rem 5%;
-    background: var(--surface);
+    background: #C6CFC5;
+    color: white;
     border-bottom: 1px solid var(--border);
     position: sticky;
     top: 0;
     z-index: 100;
+    width: 100%;
+}
+.navbar a {
+    text-decoration: none;
+    color: #302E26;
+}
+.navbar__links{
+    margin: 8px;
+    font-size: 18px;
+    padding: 2px;
+}
+.navbar__create{
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    color: white;
+    background: #262626;
+    font-family: "Calibri";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 10%;
+}
+.navbar__logo{
+    font-size: 50px;
+}
+
+@media (max-width: 768px){
+    .navbar {
+        background: black;
+    }
 }
